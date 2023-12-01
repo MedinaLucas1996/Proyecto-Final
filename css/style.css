@@ -4,13 +4,6 @@
 
 /* Hoja de estilos de la pagina Index */
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
 h1 {
     font-size: 2.5rem;
     color: #fff;
@@ -59,7 +52,6 @@ h3 {
     font-weight: 700;
     font-size: 32px;
 }
-
 .seccionCripto::before{
     content: "";
     position: absolute;
@@ -80,12 +72,10 @@ h3 {
     background-color: #22a8cd;
     filter: blur(90px);
 }
-
 .display-1, .lead {
     color: #fff;
     margin: 2.5rem;
 }
-
 .glassEfecto{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur (10px);
@@ -94,4 +84,25 @@ h3 {
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-
+.seccionMonedas{
+    padding: 60px;
+}
+.seccionMonedas .row div {
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+.display-6 {
+    color:#fff
+}
+.imgMoneda{
+    transition: 0.5s;
+}
+.imgMoneda:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.descripcion {
+    background-color: #221f2f
+}
