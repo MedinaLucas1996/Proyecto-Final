@@ -8,21 +8,29 @@
     <meta name="keywords" content="información, mercado, crypto, Criptomonedas,fiat, bolsa">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
-    <link href="css/sign-in.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- Titulo -->
     <title> Inicio || Medina Lucas</title>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/2136339.svg">
 </head>
 <body>
-    <section>
-        <h1>Home</h1>
-        <button id="logout">Logout</button>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container">
+        <a class="navbar-brand">CryptoMisiones</a>
+        <button id="logout" class="btn btn btn-secondary" type="submit">Cerrar Sesión</button>
+        </div>
+    </nav>
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen rounded-circle" src="images/nft.jpg" alt="Imagen sobre un NFT">
+            <h1>Información real sobre el Mercado del futuro.</h1>
+            <h3>Sigue en tiempo real el precio de tus Criptomonedas favoritas con la API de <a href="https://www.coingecko.com/es/api">Coingecko.</a></h3>
+        </div>
     </section>
 
     <script src="js/index.js"></script>

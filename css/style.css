@@ -1,0 +1,63 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+/* Hoja de estilos de la pagina Index */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+h3 {
+    color: #fff;
+}
+.hero {
+    background-color: #221f2f;
+    min-height: 450px;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 55%;
+    top: 20%;
+    background-color: #e90cec;
+    filter: blur(90px);
+}
+.hero::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 80%;
+    top: 44%;
+    background-color: #22a8cd;
+    filter: blur(90px);
+}
+.hero-imagen {
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    border-radius: 50px;
+}
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(95deg, #7e22ce 3.2%, #3b82f6 99.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
