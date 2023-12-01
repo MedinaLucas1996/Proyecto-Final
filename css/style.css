@@ -60,4 +60,38 @@ h3 {
     font-size: 32px;
 }
 
+.seccionCripto::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    right: 10%;
+    top: 150%;
+    background-color: #e90cec;
+    filter: blur(90px);
+}
+.seccionCripto::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    right: 90%;
+    top:120%;
+    background-color: #22a8cd;
+    filter: blur(90px);
+}
+
+.display-1, .lead {
+    color: #fff;
+    margin: 2.5rem;
+}
+
+.glassEfecto{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
 
