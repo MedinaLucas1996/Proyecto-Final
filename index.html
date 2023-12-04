@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Metadatos -->
     <meta charset="utf-8">
@@ -8,7 +9,8 @@
     <meta name="keywords" content="información, mercado, crypto, Criptomonedas,fiat, bolsa">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Titulo -->
@@ -16,68 +18,128 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/2136339.svg">
 </head>
+
 <body>
+
     <!-- Barra de Navegacion -->
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container">
-        <a class="navbar-brand">CryptoMisiones</a>
-        <button id="logout" class="btn btn btn-secondary" type="submit">Cerrar Sesión</button>
+            <a class="navbar-brand">CryptoMisiones</a>
+            <button id="logout" class="btn btn btn-secondary glassEfecto" type="submit">Cerrar Sesión</button>
         </div>
     </nav>
+    <!-- Widget -->
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+<coingecko-coin-price-marquee-widget  coin-ids="matic-network,bitcoin,ethereum,avalanche-2,tron,dogecoin,polkadot,cardano,solana" currency="usd" background-color="#221f2f" locale="es" font-color="#ffffff"></coingecko-coin-price-marquee-widget>
+
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
             <img class="hero-imagen img-fluid rounded-circle" src="images/nft.jpg" alt="Imagen sobre un NFT">
             <h1 class="display-1">Información real sobre el Mercado del futuro.</h1>
-            <h3 class="lead">Sigue en tiempo real el precio de tus Criptomonedas favoritas con la API de <a href="https://www.coingecko.com/es/api">Coingecko.</a></h3>
+            <h3 class="lead">Sigue en tiempo real el precio de tus Criptomonedas favoritas con la API de <a
+                    href="https://www.coingecko.com/es/api" target="_blank" rel="noopener noreferrer">Coingecko.</a>
+            </h3>
         </div>
     </section>
+
     <!-- Seccion Descripcion Crypto -->
     <section class="descripcion align-items-center">
         <div class="hero-principal seccionCripto">
             <div class="container glassEfecto">
-                    <h2 class="display-1">¿Que son las Criptomonedas?</h2>
-                    <p class="lead">Una criptomoneda (también llamado criptoactivo) es un medio digital de intercambio que utiliza criptografía fuerte para asegurar las transacciones, controlar la creación de unidades adicionales y verificar la transferencia de activos usando tecnologías de registro distribuido. Las criptomonedas son un tipo de divisa alternativa o moneda digital. Existe controversia respecto a que las criptomonedas tienen que ser de control descentralizado o monedas centralizadas por los bancos centrales u otra entidad, dejando a estas entidades o bancos centrales sin función ninguna. Podría darse el caso en que se adoptara masivamente y convertirse en moneda fiduciaria para todo el planeta. Las criptomonedas generalmente usan control descentralizado en lugar de una moneda digital de un banco central.</p>
+                <h2 class="display-1">¿Que son las Criptomonedas?</h2>
+                <p class="lead">Una criptomoneda (también llamado criptoactivo) es un medio digital de intercambio que
+                    utiliza criptografía fuerte para asegurar las transacciones, controlar la creación de unidades
+                    adicionales y verificar la transferencia de activos usando tecnologías de registro distribuido. Las
+                    criptomonedas son un tipo de divisa alternativa o moneda digital. Existe controversia respecto a que
+                    las criptomonedas tienen que ser de control descentralizado o monedas centralizadas por los bancos
+                    centrales u otra entidad, dejando a estas entidades o bancos centrales sin función ninguna. Podría
+                    darse el caso en que se adoptara masivamente y convertirse en moneda fiduciaria para todo el
+                    planeta. Las criptomonedas generalmente usan control descentralizado en lugar de una moneda digital
+                    de un banco central.</p>
             </div>
-        </div> 
+        </div>
     </section>
+
     <!-- Seccion Monedas -->
     <section class="descripcion seccionMonedas">
         <div class="hero-principal">
             <div class="contaianer">
                 <div class="row">
-                <!-- BTC -->
+                    <!-- BTC -->
                     <div class="col-12 col-md-4 d-grid">
-                        <p class="text-center display-6">Bitcoin <a href="https://bitcoin.org/es/" target="_blank" rel="noopener noreferrer">($BTC)</a></p>
-                        <p class="lead">Usando tecnología P2P para operar sin autoridad central o bancos; la gestión de las transacciones y la emisión e bitcoins es llevada a cabo de forma colectiva por la red. Bitcoin es de código abierto; su diseño es público, nadie es dueño o controla Bitcoin y todo el mundo puede participar.</p>
-                        <img class="rounded-circle img-fluid mx-auto imgMoneda" src="https://assets.coingecko.com/coins/images/1/standard/bitcoin.png?1696501400" alt="">
+                        <p class="text-center display-6">Bitcoin <a href="https://bitcoin.org/es/" target="_blank"
+                                rel="noopener noreferrer">($BTC)</a></p>
+                        <p class="lead">Usando tecnología P2P para operar sin autoridad central o bancos; la gestión de
+                            las transacciones y la emisión e bitcoins es llevada a cabo de forma colectiva por la red.
+                            Bitcoin es de código abierto; su diseño es público, nadie es dueño o controla Bitcoin y todo
+                            el mundo puede participar.</p>
+                        <img class="rounded-circle img-fluid mx-auto imgMoneda"
+                            src="https://assets.coingecko.com/coins/images/1/standard/bitcoin.png?1696501400" alt="">
                     </div>
                     <!-- ETH -->
                     <div class="col-12 col-md-4 d-grid">
-                        <p class="text-center display-6">Ethereum <a href="https://ethereum.org/es/" target="_blank" rel="noopener noreferrer">($ETH)</a></p>
-                        <p class="lead">Criptomonedas, como el bitcoin, permiten que cualquiera transfiera dinero a cualquier rincón del mundo. Ethereum también lo hace, con el añadido de que puede ejecutar un código que permite a las personas crear aplicaciones y organizaciones. Es resiliente y flexible a la vez, y cualquier programa informático puede ejecutar Ethereum.</p>
-                        <img class="rounded-circle img-fluid mx-auto imgMoneda" src="https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628" alt="">
+                        <p class="text-center display-6">Ethereum <a href="https://ethereum.org/es/" target="_blank"
+                                rel="noopener noreferrer">($ETH)</a></p>
+                        <p class="lead">Criptomonedas, como el bitcoin, permiten que cualquiera transfiera dinero a
+                            cualquier rincón del mundo. Ethereum también lo hace, con el añadido de que puede ejecutar
+                            un código que permite a las personas crear aplicaciones y organizaciones. Es resiliente y
+                            flexible a la vez, y cualquier programa informático puede ejecutar Ethereum.</p>
+                        <img class="rounded-circle img-fluid mx-auto imgMoneda"
+                            src="https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628" alt="">
                     </div>
                     <!-- POL -->
                     <div class="col-12 col-md-4 d-grid">
-                        <p class="text-center display-6">Polkadot <a href="https://polkadot.network//" target="_blank" rel="noopener noreferrer">($POL)</a></p>
-                        <p class="lead">Polkadot es un protocolo de red que permite transferir datos arbitrarios, no solo tokens, a través de cadenas de bloques.
-
-                            Esto significa que Polkadot es un verdadero entorno de aplicaciones de cadenas múltiples donde son posibles cosas como registros y cálculos entre cadenas.</p>
-                        <img class="rounded-circle img-fluid mx-auto imgMoneda" src="https://assets.coingecko.com/coins/images/12171/standard/polkadot.png?1696512008" alt="criptomoneda de polkadot">
+                        <p class="text-center display-6">Polkadot <a href="https://polkadot.network//" target="_blank"
+                                rel="noopener noreferrer">($POL)</a></p>
+                        <p class="lead">Polkadot es un protocolo de red que permite transferir datos arbitrarios, no
+                            solo tokens, a través de cadenas de bloques.
+                            Esto significa que Polkadot es un verdadero entorno de aplicaciones de cadenas múltiples
+                            donde son posibles cosas como registros y cálculos entre cadenas.</p>
+                        <img class="rounded-circle img-fluid mx-auto imgMoneda"
+                            src="https://assets.coingecko.com/coins/images/12171/standard/polkadot.png?1696512008"
+                            alt="criptomoneda de polkadot">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Seccion Saber Mas -->
+    <section class="saberMas">
+        <div class="container">
+            <h1 class="display-1">Ingresa a la pagina</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab possimus, exercitationem reiciendis assumenda ut at! Corrupti placeat alias voluptatem consectetur modi temporibus quod sapiente, dolor, dolorum nam ipsum totam voluptatibus?</p>
+            <button type="button"  class="btn btn-outline-light glassEfecto"><a href="/pagesFetch/pageFetch.html" class="botonIngresar" target="_blank" rel="noopener noreferrer">Ingresar</a></button>
+        </div>
+    </section>
 
-
-
-
-
-
-
+        <!-- Footer -->
+        <footer class="d-flex flex-column align-items-center justify-content-center">
+            <p class="footer-texto lead">Búscanos por nuestras redes sociales! Nos ayudarías a crecer</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://web.whatsapp.com/%F0%9F%8C%90/es" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://github.com/MedinaLucas1996/proyecto03" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+            <div class="derechos-de-autor lead">Proyecto || Medina Lucas Gabriel (2023) &#169;</div>
+        </footer>
     <script src="js/index.js"></script>
 </body>
+
 </html>

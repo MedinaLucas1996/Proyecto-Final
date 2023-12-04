@@ -1,0 +1,54 @@
+{
+  "avalanche-2": {
+    "usd": 21.8,
+    "usd_24h_change": -0.0639357344394232
+  },
+  "binancecoin": {
+    "usd": 231.42,
+    "usd_24h_change": 1.8265731816620352
+  },
+  "bitcoin": {
+    "usd": 41858,
+    "usd_24h_change": 5.58772082400494
+  },
+  "cardano": {
+    "usd": 0.400191,
+    "usd_24h_change": 2.3725079912856475
+  },
+  "chainlink": {
+    "usd": 15.63,
+    "usd_24h_change": -1.653726783536441
+  },
+  "dogecoin": {
+    "usd": 0.088698,
+    "usd_24h_change": 3.1219291575238572
+  },
+  "ethereum": {
+    "usd": 2227.84,
+    "usd_24h_change": 2.701053081913898
+  },
+  "matic-network": {
+    "usd": 0.798581,
+    "usd_24h_change": -1.21448335391804
+  },
+  "polkadot": {
+    "usd": 5.56,
+    "usd_24h_change": 1.5560825287159068
+  },
+  "ripple": {
+    "usd": 0.620167,
+    "usd_24h_change": -0.29017523947262563
+  },
+  "solana": {
+    "usd": 61.04,
+    "usd_24h_change": -3.2053908124692527
+  },
+  "terra-luna-2": {
+    "usd": 1.16,
+    "usd_24h_change": 36.77871856046387
+  },
+  "tron": {
+    "usd": 0.10289,
+    "usd_24h_change": -0.49753162902669923
+  }
+}
