@@ -14,5 +14,7 @@
 <p>Las tecnologias que termine usando fueron, HTML5, CSS3, BOOTSTRAP 5 y JAVA SCRIPT.</p>
 
 <h3>WIREFRAME</h3>
-<p>Para el diseño de su pagina, se utilizo la aplicacion de InVisionApp de las cuales dejo algunas tomas a continuacion</p>
-<img src="./images/ripple.png" alt="sdasd">
+
+<p>Para el diseño de su pagina, se utilizo la aplicacion de InVisionApp de las cuales dejo algunas tomas a continuacion...</p>
+<img src="./wireframe/wireframe5.jpg" alt="">
+<img src="./wireframe/wireframe6.jpg" alt="">
